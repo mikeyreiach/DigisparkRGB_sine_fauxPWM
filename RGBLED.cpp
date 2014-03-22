@@ -1,6 +1,5 @@
 #include "RGBLED.h" //include the declaration for this class
 
-
 //<<constructor>> setup the LED, make pin 13 an OUTPUT
 RGBLED::RGBLED(int pinAllocation, int startingIntensity){
 	_ledPin = pinAllocation;
@@ -28,6 +27,3 @@ int RGBLED::level(int level){
 int RGBLED::getLevel(){
 	return _ledIntensity;
 }
-
-
-

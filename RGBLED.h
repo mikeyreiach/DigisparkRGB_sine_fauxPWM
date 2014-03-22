@@ -18,7 +18,7 @@ public:
 private:
 
 	int _ledPin;		// default pin to 0
-	int _ledIntensity;	//starting intensity of LED is 0
+	int _ledIntensity;	// starting intensity of LED is 0
 
 };
 
